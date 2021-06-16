@@ -1,3 +1,9 @@
+.navbar {
+  position: fixed;
+  top: 0 !important;
+  width: 85%;
+  z-index: 10000;
+}
 .container {
   margin-bottom: 100px;
 }
@@ -44,4 +50,10 @@
 .card-footer {
   background-color: white;
   border-top: none;
+}
+#contact {
+  height: 300px;
+}
+#contact h6 {
+  color: gray;
 }
