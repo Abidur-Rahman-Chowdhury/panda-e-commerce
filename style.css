@@ -20,13 +20,28 @@
   cursor: pointer;
 }
 .cat1 {
-  background-color: orange;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 188, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 94%
+  );
 }
 .cat2 {
-  background-color: orchid;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 7, 246, 1) 0%,
+    rgba(255, 255, 255, 1) 87%
+  );
 }
 .cat3 {
-  background-color: blue;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 92%
+  );
 }
 .cat1,
 .cat2,
